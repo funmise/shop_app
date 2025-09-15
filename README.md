@@ -1,16 +1,50 @@
-# shop_app
+# 🛍️ Shop App
 
-A new Flutter project.
+A minimal e-commerce mobile application built with **Flutter**.  
+This demo app allows users to **browse products**, **view product details**, **choose sizes**, and **add or remove items from the cart** — all using local state (no backend).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🏷️ **Product Catalog**
+  - Browse a list of shoes with price and brand
+  - Brand filter tabs (non-functional / for UI only)
+  - Search bar (UI only)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📝 **Product Details**
+  - View large product image, name, price
+  - Select shoe size
+  - Add product to cart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🛒 **Cart**
+  - See all items added to cart
+  - Remove items from cart
+  - Updates immediately with local state
+
+- 🎨 **Modern UI**
+  - Clean white theme
+  - Rounded cards and smooth layout
+  - Responsive design for mobile
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Shop Dashboard
+<img src="./screenshots/ShopDash.png" width="300">
+
+### 👟 Product Page
+<img src="./screenshots/ProductPage.png" width="300">
+
+### 🛍️ Cart
+<img src="./screenshots/Cart.png" width="300">
+
+---
+
+## ⚙️ Tech Stack
+
+- Flutter
+- Dart
+- Provider / setState for state management
+- No backend (local-only demo)
